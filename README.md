@@ -5,5 +5,5 @@
 ```cpp=
 #define filePath "hw1_input.txt"
 ```
-2.將scanner.cpp檔跟input.txt檔放入同一個資料夾中
-3.建議使用visual studio code去編譯，直接按run code即可
+2. 將scanner.cpp檔跟input.txt檔放入同一個資料夾中
+3. 建議使用visual studio code去編譯，直接按run code即可
