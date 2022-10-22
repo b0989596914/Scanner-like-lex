@@ -32,7 +32,7 @@ bool isFloat(string str){  //判斷是不是float
     if (str.length() == 0){return false;}    
     if(str.at(0)=='-'){
         add = 1;        
-        if (str.at(1)=='0' && (str.at(1)>='1' && str.at(1)<='9')){   //如果是-0245.45 --> 回傳錯誤
+        if (str.at(1)=='0' && (str.at(2)>='1' && str.at(2)<='9')){   //如果是-0245.45 --> 回傳錯誤
             return false;
         }
     }    
