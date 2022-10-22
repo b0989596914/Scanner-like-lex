@@ -1,5 +1,11 @@
 # Scanner-like-lex
-
+:::
+note:
+scanner.cpp是有判斷
+-0 -> int, 01.23 -> error, 0.23 -> float, +111 -> error, 0 -> int, 01234 -> error
+scanner_version2.cpp -> 是判斷
+-0 -> int, 01.23 -> float, 0.23 -> float, +111 -> error, 0 -> int, 01234 -> int
+:::
 ### 使用方法
 1. 在一開始define的地方寫上input.txt的檔名
 ```cpp=
