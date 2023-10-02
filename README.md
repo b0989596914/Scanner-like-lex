@@ -1,4 +1,4 @@
-# Scanner-like-lex
+# 使用 C++ 製作 Scanner
 
 ### note:
 - [ ] scanner.cpp是有判斷
